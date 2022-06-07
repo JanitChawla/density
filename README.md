@@ -1,5 +1,32 @@
 # Getting Started with Create React App
 
+wss://stream.binance.com:9443/ws/btcusdt@kline_1m
+
+{
+"e": "kline",
+"E": 1653489132710,
+"s": "BTCUSDT",
+"k": {
+"t": 1653489120000,
+"T": 1653489179999,
+"s": "BTCUSDT",
+"i": "1m",
+"f": 1380783744,
+"L": 1380783930,
+"o": "29798.45000000",
+"c": "29812.44000000",
+"h": "29812.44000000",
+"l": "29798.45000000",
+"v": "8.16737000",
+"n": 187,
+"x": false,
+"q": "243427.54462150",
+"V": "5.90765000",
+"Q": "176070.31486050",
+"B": "0"
+}
+}
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

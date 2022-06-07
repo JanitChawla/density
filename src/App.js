@@ -1,22 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useState } from "react";
+import { Candle } from "./Candle";
 
 function App() {
+  //request api websocket
+  const ws = new WebSocket("wss://stream.binance.com:9443/ws/btcusdt@kline_1m");
+
+  // const [data, setData] = useState([]);
+  // //console log result of websocket
+  // ws.onmessage = function (event) {
+  //   // console.log((event.data));
+  //   var data = JSON.parse(event.data);
+  //   console.log(data.k.t);
+  //   setData(data.k.s);
+  // };
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>Hello</div>
+        {/* {data} */}
+        <Candle />
       </header>
     </div>
   );
