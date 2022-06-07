@@ -1,10 +1,10 @@
 import "./App.css";
-import { useState } from "react";
+// import { useState } from "react";
 import { Candle } from "./Candle";
 
 function App() {
   //request api websocket
-  const ws = new WebSocket("wss://stream.binance.com:9443/ws/btcusdt@kline_1m");
+  // const ws = new WebSocket("wss://stream.binance.com:9443/ws/btcusdt@kline_1m");
 
   // const [data, setData] = useState([]);
   // //console log result of websocket
